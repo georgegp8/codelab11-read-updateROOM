@@ -1,29 +1,34 @@
-Inventory app
-==================================
+# 📦 App de Inventario – Android con Jetpack Compose
 
-Solution code for Android Basics with Compose.
+### 📱 Aplicación básica para gestionar productos y controlar inventario
 
-Introduction
-------------
+---
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+## 🧾 Descripción
 
-Pre-requisites
---------------
+Esta app permite **agregar, editar, vender y eliminar productos** desde una base de datos local. Está desarrollada con **Jetpack Compose** y componentes modernos de Android como:
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
+- 🗄️ **Room** (Base de datos local)  
+- ⚙️ **ViewModel** (Gestión del estado)  
+- 🔁 **Flow / StateFlow** (Flujos de datos reactivos)  
+- 🧭 **Navigation** (Navegación entre pantallas)
 
+---
 
-Getting Started
----------------
+## 📌 Requisitos previos
 
-1. Download and run the app.
+Antes de usar o modificar este proyecto, deberías tener conocimientos de:
+
+- Creación y uso de **composables**  
+- Uso de **ViewModel**, **Flow**, **StateFlow**  
+- Navegación entre pantallas y paso de datos  
+- Uso de **corutinas** para tareas en segundo plano  
+- Lenguaje de consultas **SQL (SQLite)**
+
+---
+
+## 🚀 ¿Cómo empezar?
+
+1. Clona este repositorio.  
+2. Abre el proyecto en Android Studio.  
+3. Ejecuta la app en un emulador o dispositivo físico.
