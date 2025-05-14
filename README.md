@@ -1,29 +1,32 @@
-Inventory app
-==================================
+App de Inventario – Android con Jetpack Compose
+📱 Aplicación básica para gestionar productos y controlar inventario
+🧾 Descripción
+Esta app permite agregar, editar, vender y eliminar productos desde una base de datos local. Está desarrollada con Jetpack Compose y componentes modernos de Android como:
 
-Solution code for Android Basics with Compose.
+🗄️ Room (Base de datos local)
 
-Introduction
-------------
+⚙️ ViewModel (Gestión del estado)
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+🔁 Flow / StateFlow (Flujos de datos reactivos)
 
-Pre-requisites
---------------
+🧭 Navigation (Navegación entre pantallas)
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
+📌 Requisitos previos
+Antes de usar o modificar este proyecto, deberías tener conocimientos de:
 
+Creación y uso de composables
 
-Getting Started
----------------
+Uso de ViewModel, Flow, StateFlow
 
-1. Download and run the app.
+Navegación entre pantallas y paso de datos
+
+Uso de corutinas para tareas en segundo plano
+
+Lenguaje de consultas SQL (SQLite)
+
+🚀 ¿Cómo empezar?
+Clona este repositorio.
+
+Abre el proyecto en Android Studio.
+
+Ejecuta la app en un emulador o dispositivo físico.
